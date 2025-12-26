@@ -1,7 +1,7 @@
 [project]
 name = "db-mvp"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brand Intelligence API with Streamlit Frontend"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -10,6 +10,9 @@ dependencies = [
     "pydantic",
     "supabase",
     "python-dotenv",
+    "streamlit",
+    "requests",
+    "pandas",
 ]
 
 [build-system]
